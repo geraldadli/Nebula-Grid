@@ -1,6 +1,6 @@
 if (team == 1) {
     with (obj_player) {
-        if (iframes == 0) { hp -= other.damage; iframes = 45; }
+        if (iframes == 0) { hp -= other.damage; iframes = 45; nb_shake(8); }
     }
     instance_destroy();
 }

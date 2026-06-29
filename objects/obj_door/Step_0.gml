@@ -3,7 +3,7 @@ if (instance_exists(obj_game)) _cleared = obj_game.room_cleared;
 
 if (_cleared && !open_done) {
     open_done = true;
-    sprite_index = -1; // drop collision so the player can walk through
+    sprite_index = -1;
 }
 
 if (open_done && instance_exists(obj_player)) {

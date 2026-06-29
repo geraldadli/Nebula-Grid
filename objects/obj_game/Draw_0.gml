@@ -1,4 +1,3 @@
-// metallic Death Star floor
 var _gs = 64;
 for (var _xx = 0; _xx < room_width; _xx += _gs) {
     for (var _yy = 0; _yy < room_height; _yy += _gs) {

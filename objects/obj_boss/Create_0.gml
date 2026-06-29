@@ -1,0 +1,10 @@
+event_inherited();
+hp_max = 140; hp = hp_max;
+move_speed = 1;
+contact_dmg = 2;
+score_value = 500;
+casing_drop = 20;
+aim = 0;
+pattern = 0;
+pat_count = 0;
+pat_timer = 60;
